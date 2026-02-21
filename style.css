@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.hero-section {
+  height: 100vh;
+  background-image: url(./images/netflix-brand-hero-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(30%);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.netflix {
+  padding-top: 30px;
+  padding-left: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.netflix h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 40px;
+}
+.right {
+  display: flex;
+  gap: 20px;
+  margin-right: 150px;
+}
+.right select {
+  padding: 0px 10px;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+.right button {
+  padding: 10px 30px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+.hero {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+.hero h1 {
+  font-size: 60px;
+  font-family: arial;
+  margin-bottom: 20px;
+}
+.hero h3 {
+  font-size: 24px;
+  font-family: arial;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  font-family: arial;
+  margin-bottom: 20px;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.email input {
+  padding: 20px 80px 20px 10px;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+.email button {
+  padding: 10px 30px 10px 20px;
+  background-color: red;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+}
